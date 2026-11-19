@@ -1,0 +1,3477 @@
+{
+  "source_project": "cycloidal-actuator-v1-project.3mf",
+  "source_sha256": "190a9c521b5fd1e33f5dde6293655c2496f4acbd2e2441e261fd09fbcb44f2ac",
+  "source_bytes": 840263,
+  "source_untouched": true,
+  "source_project_crc_valid": true,
+  "units": "millimeter",
+  "build_instances": 26,
+  "unique_exported_parts": 11,
+  "total_print_quantity": 26,
+  "sliced_job_match": "PASS:all26 identify IDs,names and plate assignments match savedFullAssembly slicedjob.",
+  "coordinate_policy": "Resolve allp:path/objectid components recursively;apply component and build transforms;preserve build rotation/scale,then center eachpart X/Y and place its lowestZ at0. Translationonly normalization is recorded perinstance.",
+  "assembly_layout_note": "The3MF is a three-plate printlayout,not a mechanically assembledCADmodel. STLhasnounitfield;importasmm. Original3MFretains platepositions/settings.",
+  "mesh_repair_performed": false,
+  "parts": [
+    {
+      "filename": "01-end-effector-torque-test.stl",
+      "source_name": "end effector torque test",
+      "print_quantity": 1,
+      "sha256": "911800018d7f1511a66d1d0ad7245d47627171cea3cc7f5b26ee4b0d7ffa23de",
+      "bytes": 123084,
+      "units": "millimeter",
+      "bounds_mm": [
+        [
+          -106.25,
+          -51.24433517456055,
+          0.0
+        ],
+        [
+          106.25,
+          51.24433517456055,
+          22.5
+        ]
+      ],
+      "dimensions_mm": [
+        212.5,
+        102.4886703491211,
+        22.5
+      ],
+      "float32_bbox_error_mm": 2.5439447881581145e-08,
+      "validation": {
+        "finite": true,
+        "triangles": 2460,
+        "unique_vertices": 1184,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "inconsistent_edge_winding": 0,
+        "degenerate_triangles": 0,
+        "watertight_by_edge_check": true,
+        "winding_consistent_by_edge_check": true,
+        "signed_solid_volume_mm3": 125759.65892379485,
+        "self_intersections_checked": false,
+        "validation_library": "NumPy edge-incidence/winding/finite/volume checks;trimesh unavailable"
+      },
+      "instances": [
+        {
+          "source_object_id": "2",
+          "source_name": "end effector torque test",
+          "plate": 1,
+          "identify_id": "917",
+          "build_transform_3mf": "-1 0 0 0 1 0 0 0 -1 148.74999 203.75567 11.25",
+          "build_transform_column_matrix": [
+            [
+              -1.0,
+              0.0,
+              0.0,
+              148.74999
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              203.75567
+            ],
+            [
+              0.0,
+              0.0,
+              -1.0,
+              11.25
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "normalization_translation_mm": [
+            -148.74999,
+            -203.75567,
+            -0.0
+          ],
+          "original_plated_bounds_mm": [
+            [
+              42.49999,
+              152.51133480000001,
+              0.0
+            ],
+            [
+              254.99999,
+              255.0000052,
+              22.5
+            ]
+          ],
+          "source_references": [
+            {
+              "model": "3D/Objects/object_22.model",
+              "object_id": "1",
+              "transform": [
+                [
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ],
+              "children": [
+                {
+                  "model": "3D/Objects/object_22.model",
+                  "object_id": "1",
+                  "transform": [
+                    [
+                      1.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      1.0,
+                      0.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      0.0,
+                      1.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "02-pin.stl",
+      "source_name": "Pin",
+      "print_quantity": 1,
+      "sha256": "92e76fa306b8d57eff8c3b7d49c6fc490a9ee17c5a205a2c2ef66f35ea2c6309",
+      "bytes": 445284,
+      "units": "millimeter",
+      "bounds_mm": [
+        [
+          -67.50199890136719,
+          -67.49237060546875,
+          0.0
+        ],
+        [
+          67.50199890136719,
+          67.49237060546875,
+          34.249996185302734
+        ]
+      ],
+      "dimensions_mm": [
+        135.00399780273438,
+        134.9847412109375,
+        34.249996185302734
+      ],
+      "float32_bbox_error_mm": 1.4697263850393938e-08,
+      "validation": {
+        "finite": true,
+        "triangles": 8904,
+        "unique_vertices": 4452,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "inconsistent_edge_winding": 0,
+        "degenerate_triangles": 0,
+        "watertight_by_edge_check": true,
+        "winding_consistent_by_edge_check": true,
+        "signed_solid_volume_mm3": 179040.22311534,
+        "self_intersections_checked": false,
+        "validation_library": "NumPy edge-incidence/winding/finite/volume checks;trimesh unavailable"
+      },
+      "instances": [
+        {
+          "source_object_id": "4",
+          "source_name": "Pin",
+          "plate": 1,
+          "identify_id": "328",
+          "build_transform_3mf": "1 0 0 0 1 0 0 0 1 187.498 83.01898 17.1249981",
+          "build_transform_column_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              187.498
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              83.01898
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              17.1249981
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "normalization_translation_mm": [
+            -187.498,
+            -83.01898,
+            -0.0
+          ],
+          "original_plated_bounds_mm": [
+            [
+              119.99600109999999,
+              15.526609399999998,
+              0.0
+            ],
+            [
+              254.99999889999998,
+              150.51135060000001,
+              34.2499962
+            ]
+          ],
+          "source_references": [
+            {
+              "model": "3D/Objects/object_1.model",
+              "object_id": "3",
+              "transform": [
+                [
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ],
+              "children": [
+                {
+                  "model": "3D/Objects/object_1.model",
+                  "object_id": "3",
+                  "transform": [
+                    [
+                      1.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      1.0,
+                      0.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      0.0,
+                      1.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "03-motor-attachment.stl",
+      "source_name": "Motor Attachment",
+      "print_quantity": 1,
+      "sha256": "7870ffa87d65077654a131a922ed1f93e6531f8e4493e6525a0a6529dd1d7ccd",
+      "bytes": 1018084,
+      "units": "millimeter",
+      "bounds_mm": [
+        [
+          -47.4195556640625,
+          -47.4195556640625,
+          0.0
+        ],
+        [
+          47.4195556640625,
+          47.4195556640625,
+          28.75000762939453
+        ]
+      ],
+      "dimensions_mm": [
+        94.839111328125,
+        94.839111328125,
+        28.75000762939453
+      ],
+      "float32_bbox_error_mm": 3.593749653418854e-08,
+      "validation": {
+        "finite": true,
+        "triangles": 20360,
+        "unique_vertices": 10156,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "inconsistent_edge_winding": 0,
+        "degenerate_triangles": 0,
+        "watertight_by_edge_check": true,
+        "winding_consistent_by_edge_check": true,
+        "signed_solid_volume_mm3": 21810.980718215407,
+        "self_intersections_checked": false,
+        "validation_library": "NumPy edge-incidence/winding/finite/volume checks;trimesh unavailable"
+      },
+      "instances": [
+        {
+          "source_object_id": "6",
+          "source_name": "Motor Attachment",
+          "plate": 1,
+          "identify_id": "1047",
+          "build_transform_3mf": "1 0 0 0 1 0 0 0 1 66.7603 73.58784 14.375",
+          "build_transform_column_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              66.7603
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              73.58784
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              14.375
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "normalization_translation_mm": [
+            -66.7603,
+            -73.58784,
+            -0.0
+          ],
+          "original_plated_bounds_mm": [
+            [
+              19.340744300000004,
+              26.168284300000003,
+              0.0
+            ],
+            [
+              114.17985569999999,
+              121.00739569999999,
+              28.7500076
+            ]
+          ],
+          "source_references": [
+            {
+              "model": "3D/Objects/object_25.model",
+              "object_id": "5",
+              "transform": [
+                [
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ],
+              "children": [
+                {
+                  "model": "3D/Objects/object_25.model",
+                  "object_id": "5",
+                  "transform": [
+                    [
+                      1.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      1.0,
+                      0.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      0.0,
+                      1.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "04-output-shaft.stl",
+      "source_name": "output shaft",
+      "print_quantity": 1,
+      "sha256": "3f911327873576bc862ac675bd314e0f274e642c827cf2e61e2f2e8f7bd74692",
+      "bytes": 222884,
+      "units": "millimeter",
+      "bounds_mm": [
+        [
+          -44.99675750732422,
+          -44.99837875366211,
+          0.0
+        ],
+        [
+          44.99675750732422,
+          44.99837875366211,
+          27.0
+        ]
+      ],
+      "dimensions_mm": [
+        89.99351501464844,
+        89.99675750732422,
+        27.0
+      ],
+      "float32_bbox_error_mm": 4.633787398233835e-08,
+      "validation": {
+        "finite": true,
+        "triangles": 4456,
+        "unique_vertices": 2230,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "inconsistent_edge_winding": 0,
+        "degenerate_triangles": 0,
+        "watertight_by_edge_check": true,
+        "winding_consistent_by_edge_check": true,
+        "signed_solid_volume_mm3": 61150.188390686955,
+        "self_intersections_checked": false,
+        "validation_library": "NumPy edge-incidence/winding/finite/volume checks;trimesh unavailable"
+      },
+      "instances": [
+        {
+          "source_object_id": "8",
+          "source_name": "output shaft",
+          "plate": 2,
+          "identify_id": "994",
+          "build_transform_3mf": "1 0 0 0 1 0 0 0 1 503.70198 202.54713 13.5",
+          "build_transform_column_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              503.70198
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              202.54713
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              13.5
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "normalization_translation_mm": [
+            -503.70198,
+            -202.54713,
+            -0.0
+          ],
+          "original_plated_bounds_mm": [
+            [
+              458.7052225,
+              157.54875120000003,
+              0.0
+            ],
+            [
+              548.6987375,
+              247.5455088,
+              27.0
+            ]
+          ],
+          "source_references": [
+            {
+              "model": "3D/Objects/object_24.model",
+              "object_id": "7",
+              "transform": [
+                [
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ],
+              "children": [
+                {
+                  "model": "3D/Objects/object_24.model",
+                  "object_id": "7",
+                  "transform": [
+                    [
+                      1.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      1.0,
+                      0.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      0.0,
+                      1.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "05-top-cap.stl",
+      "source_name": "Top Cap",
+      "print_quantity": 1,
+      "sha256": "a86aa036ead73847a2a7460b3024b87f4fb9e8a5cf723d27cbabbb88fc4a1c6d",
+      "bytes": 565884,
+      "units": "millimeter",
+      "bounds_mm": [
+        [
+          -67.50199890136719,
+          -67.49961853027344,
+          0.0
+        ],
+        [
+          67.50199890136719,
+          67.49961853027344,
+          13.0
+        ]
+      ],
+      "dimensions_mm": [
+        135.00399780273438,
+        134.99923706054688,
+        13.0
+      ],
+      "float32_bbox_error_mm": 3.027344064321369e-08,
+      "validation": {
+        "finite": true,
+        "triangles": 11316,
+        "unique_vertices": 5594,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "inconsistent_edge_winding": 0,
+        "degenerate_triangles": 0,
+        "watertight_by_edge_check": true,
+        "winding_consistent_by_edge_check": true,
+        "signed_solid_volume_mm3": 76607.44807493356,
+        "self_intersections_checked": false,
+        "validation_library": "NumPy edge-incidence/winding/finite/volume checks;trimesh unavailable"
+      },
+      "instances": [
+        {
+          "source_object_id": "10",
+          "source_name": "Top Cap",
+          "plate": 2,
+          "identify_id": "480",
+          "build_transform_3mf": "1 0 0 0 1 0 0 0 1 389.20325 180.04593 6.5",
+          "build_transform_column_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              389.20325
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              180.04593
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              6.5
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "normalization_translation_mm": [
+            -389.20325,
+            -180.04593,
+            -0.0
+          ],
+          "original_plated_bounds_mm": [
+            [
+              321.70125110000004,
+              112.5463115,
+              0.0
+            ],
+            [
+              456.7052489,
+              247.5455485,
+              13.0
+            ]
+          ],
+          "source_references": [
+            {
+              "model": "3D/Objects/object_5.model",
+              "object_id": "9",
+              "transform": [
+                [
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ],
+              "children": [
+                {
+                  "model": "3D/Objects/object_5.model",
+                  "object_id": "9",
+                  "transform": [
+                    [
+                      1.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      1.0,
+                      0.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      0.0,
+                      1.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "06-planetary-disk-01.stl",
+      "source_name": "Planetary disk",
+      "print_quantity": 1,
+      "sha256": "43cac512f8149cff1a21ce839ff4a9a1956178858c19d46e899e4b4362385804",
+      "bytes": 413684,
+      "units": "millimeter",
+      "bounds_mm": [
+        [
+          -50.801639556884766,
+          -51.04584503173828,
+          0.0
+        ],
+        [
+          50.801639556884766,
+          51.04584503173828,
+          6.0
+        ]
+      ],
+      "dimensions_mm": [
+        101.60327911376953,
+        102.09169006347656,
+        6.0
+      ],
+      "float32_bbox_error_mm": 4.311527845857199e-08,
+      "validation": {
+        "finite": true,
+        "triangles": 8272,
+        "unique_vertices": 4124,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "inconsistent_edge_winding": 0,
+        "degenerate_triangles": 0,
+        "watertight_by_edge_check": true,
+        "winding_consistent_by_edge_check": true,
+        "signed_solid_volume_mm3": 27912.042650066363,
+        "self_intersections_checked": false,
+        "validation_library": "NumPy edge-incidence/winding/finite/volume checks;trimesh unavailable"
+      },
+      "instances": [
+        {
+          "source_object_id": "12",
+          "source_name": "Planetary disk",
+          "plate": 2,
+          "identify_id": "1170",
+          "build_transform_3mf": "1 0 0 0 1 0 0 0 1 497.89706 59.50043 3",
+          "build_transform_column_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              497.89706
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              59.50043
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              3.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "normalization_translation_mm": [
+            -497.89706,
+            -59.50043000000001,
+            -0.0
+          ],
+          "original_plated_bounds_mm": [
+            [
+              447.0954204,
+              8.454585000000002,
+              0.0
+            ],
+            [
+              548.6986996,
+              110.54627500000001,
+              6.0
+            ]
+          ],
+          "source_references": [
+            {
+              "model": "3D/Objects/object_28.model",
+              "object_id": "11",
+              "transform": [
+                [
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ],
+              "children": [
+                {
+                  "model": "3D/Objects/object_28.model",
+                  "object_id": "11",
+                  "transform": [
+                    [
+                      1.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      1.0,
+                      0.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      0.0,
+                      1.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "07-planetary-disk-02.stl",
+      "source_name": "Planetary disk",
+      "print_quantity": 1,
+      "sha256": "ed70f08a3fcb3027526e56ad4ed0519eb8cfa349ef25dab3e3d9a862e9593fab",
+      "bytes": 413684,
+      "units": "millimeter",
+      "bounds_mm": [
+        [
+          -50.801639556884766,
+          -51.04584503173828,
+          0.0
+        ],
+        [
+          50.801639556884766,
+          51.04584503173828,
+          6.0
+        ]
+      ],
+      "dimensions_mm": [
+        101.60327911376953,
+        102.09169006347656,
+        6.0
+      ],
+      "float32_bbox_error_mm": 4.311522161515313e-08,
+      "validation": {
+        "finite": true,
+        "triangles": 8272,
+        "unique_vertices": 4124,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "inconsistent_edge_winding": 0,
+        "degenerate_triangles": 0,
+        "watertight_by_edge_check": true,
+        "winding_consistent_by_edge_check": true,
+        "signed_solid_volume_mm3": 27912.042650066363,
+        "self_intersections_checked": false,
+        "validation_library": "NumPy edge-incidence/winding/finite/volume checks;trimesh unavailable"
+      },
+      "instances": [
+        {
+          "source_object_id": "14",
+          "source_name": "Planetary disk",
+          "plate": 2,
+          "identify_id": "1132",
+          "build_transform_3mf": "1 0 0 0 1 0 0 0 1 394.29577 59.50036 3",
+          "build_transform_column_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              394.29577
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              59.50036
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              3.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "normalization_translation_mm": [
+            -394.29577,
+            -59.50036,
+            -0.0
+          ],
+          "original_plated_bounds_mm": [
+            [
+              343.4941304,
+              8.454515,
+              0.0
+            ],
+            [
+              445.0974096,
+              110.546205,
+              6.0
+            ]
+          ],
+          "source_references": [
+            {
+              "model": "3D/Objects/object_27.model",
+              "object_id": "13",
+              "transform": [
+                [
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ],
+              "children": [
+                {
+                  "model": "3D/Objects/object_27.model",
+                  "object_id": "13",
+                  "transform": [
+                    [
+                      1.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      1.0,
+                      0.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      0.0,
+                      1.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "08-output-shaft-attach.stl",
+      "source_name": "Output Shaft Attach",
+      "print_quantity": 1,
+      "sha256": "81662719247b8be31ecce1722759caf50b44a1014b41708ce44b9de382c5c5b3",
+      "bytes": 144684,
+      "units": "millimeter",
+      "bounds_mm": [
+        [
+          -39.9721794128418,
+          -39.97359085083008,
+          0.0
+        ],
+        [
+          39.9721794128418,
+          39.97359085083008,
+          9.5
+        ]
+      ],
+      "dimensions_mm": [
+        79.9443588256836,
+        79.94718170166016,
+        9.5
+      ],
+      "float32_bbox_error_mm": 4.916992679682153e-08,
+      "validation": {
+        "finite": true,
+        "triangles": 2892,
+        "unique_vertices": 1434,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "inconsistent_edge_winding": 0,
+        "degenerate_triangles": 0,
+        "watertight_by_edge_check": true,
+        "winding_consistent_by_edge_check": true,
+        "signed_solid_volume_mm3": 30366.07563385706,
+        "self_intersections_checked": false,
+        "validation_library": "NumPy edge-incidence/winding/finite/volume checks;trimesh unavailable"
+      },
+      "instances": [
+        {
+          "source_object_id": "16",
+          "source_name": "Output Shaft Attach",
+          "plate": 3,
+          "identify_id": "366",
+          "build_transform_3mf": "1 0 0 0 1 0 0 0 1 149.47467 -179.19999 4.75",
+          "build_transform_column_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              149.47467
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -179.19999
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              4.75
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "normalization_translation_mm": [
+            -149.47467,
+            179.19999,
+            -0.0
+          ],
+          "original_plated_bounds_mm": [
+            [
+              109.5024906,
+              -219.17358090000002,
+              0.0
+            ],
+            [
+              189.44684940000002,
+              -139.2263991,
+              9.5
+            ]
+          ],
+          "source_references": [
+            {
+              "model": "3D/Objects/object_2.model",
+              "object_id": "15",
+              "transform": [
+                [
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ],
+              "children": [
+                {
+                  "model": "3D/Objects/object_2.model",
+                  "object_id": "15",
+                  "transform": [
+                    [
+                      1.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      1.0,
+                      0.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      0.0,
+                      1.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "09-eccentric-shaft-1.stl",
+      "source_name": "eccentric shaft (1)",
+      "print_quantity": 1,
+      "sha256": "ef9bf6224520c06bbe1efa485c41e1ea71ffe09f9da2834db5cc4929256d1b32",
+      "bytes": 121284,
+      "units": "millimeter",
+      "bounds_mm": [
+        [
+          -20.47467041015625,
+          -22.049331665039062,
+          0.0
+        ],
+        [
+          20.47467041015625,
+          22.049331665039062,
+          18.030006408691406
+        ]
+      ],
+      "dimensions_mm": [
+        40.9493408203125,
+        44.098663330078125,
+        18.030006408691406
+      ],
+      "float32_bbox_error_mm": 3.496094791444193e-08,
+      "validation": {
+        "finite": true,
+        "triangles": 2424,
+        "unique_vertices": 1210,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "inconsistent_edge_winding": 0,
+        "degenerate_triangles": 0,
+        "watertight_by_edge_check": true,
+        "winding_consistent_by_edge_check": true,
+        "signed_solid_volume_mm3": 14647.873095884,
+        "self_intersections_checked": false,
+        "validation_library": "NumPy edge-incidence/winding/finite/volume checks;trimesh unavailable"
+      },
+      "instances": [
+        {
+          "source_object_id": "18",
+          "source_name": "eccentric shaft (1)",
+          "plate": 3,
+          "identify_id": "1212",
+          "build_transform_3mf": "1 0 0 0 1 0 0 0 1 87.02783 -161.29774 9.01499939",
+          "build_transform_column_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              87.02783
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -161.29774
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              9.01499939
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "normalization_translation_mm": [
+            -87.02783,
+            161.29774,
+            -0.0
+          ],
+          "original_plated_bounds_mm": [
+            [
+              66.55315959999999,
+              -183.34707170000001,
+              0.0
+            ],
+            [
+              107.5025004,
+              -139.2484083,
+              18.03000641
+            ]
+          ],
+          "source_references": [
+            {
+              "model": "3D/Objects/object_29.model",
+              "object_id": "17",
+              "transform": [
+                [
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ],
+              "children": [
+                {
+                  "model": "3D/Objects/object_29.model",
+                  "object_id": "17",
+                  "transform": [
+                    [
+                      1.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      1.0,
+                      0.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      0.0,
+                      1.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "10-motor-shaft-lock.stl",
+      "source_name": "motor shaft lock",
+      "print_quantity": 1,
+      "sha256": "c9d725b761749a64c7c8ee839a0650f69f07666d2f0d88cb4cbd8ee164851874",
+      "bytes": 119784,
+      "units": "millimeter",
+      "bounds_mm": [
+        [
+          -17.475000381469727,
+          -17.475000381469727,
+          0.0
+        ],
+        [
+          17.475000381469727,
+          17.475000381469727,
+          19.5
+        ]
+      ],
+      "dimensions_mm": [
+        34.95000076293945,
+        34.95000076293945,
+        19.5
+      ],
+      "float32_bbox_error_mm": 1.8530272427597083e-08,
+      "validation": {
+        "finite": true,
+        "triangles": 2394,
+        "unique_vertices": 1193,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "inconsistent_edge_winding": 0,
+        "degenerate_triangles": 0,
+        "watertight_by_edge_check": true,
+        "winding_consistent_by_edge_check": true,
+        "signed_solid_volume_mm3": 9071.659130676524,
+        "self_intersections_checked": false,
+        "validation_library": "NumPy edge-incidence/winding/finite/volume checks;trimesh unavailable"
+      },
+      "instances": [
+        {
+          "source_object_id": "20",
+          "source_name": "motor shaft lock",
+          "plate": 1,
+          "identify_id": "956",
+          "build_transform_3mf": "-1 0 0 0 1 0 0 0 -1 130.55566 148.75332 9.75",
+          "build_transform_column_matrix": [
+            [
+              -1.0,
+              0.0,
+              0.0,
+              130.55566
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              148.75332
+            ],
+            [
+              0.0,
+              0.0,
+              -1.0,
+              9.75
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "normalization_translation_mm": [
+            -130.55566,
+            -148.75332,
+            -0.0
+          ],
+          "original_plated_bounds_mm": [
+            [
+              113.08065959999999,
+              131.2783196,
+              0.0
+            ],
+            [
+              148.0306604,
+              166.2283204,
+              19.5
+            ]
+          ],
+          "source_references": [
+            {
+              "model": "3D/Objects/object_23.model",
+              "object_id": "19",
+              "transform": [
+                [
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ],
+              "children": [
+                {
+                  "model": "3D/Objects/object_23.model",
+                  "object_id": "19",
+                  "transform": [
+                    [
+                      1.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      1.0,
+                      0.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      0.0,
+                      1.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "11-spacer-16.stl",
+      "source_name": "Spacer 16",
+      "print_quantity": 16,
+      "sha256": "ab81e489a25e80a712fe576d60f7e2acc19fc23b9f0a881a1bef74cddab6935f",
+      "bytes": 92684,
+      "units": "millimeter",
+      "bounds_mm": [
+        [
+          -6.450000762939453,
+          -6.449038982391357,
+          0.0
+        ],
+        [
+          6.450000762939453,
+          6.449038982391357,
+          6.0
+        ]
+      ],
+      "dimensions_mm": [
+        12.900001525878906,
+        12.898077964782715,
+        6.0
+      ],
+      "float32_bbox_error_mm": 2.9394584544206737e-09,
+      "validation": {
+        "finite": true,
+        "triangles": 1852,
+        "unique_vertices": 926,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "inconsistent_edge_winding": 0,
+        "degenerate_triangles": 0,
+        "watertight_by_edge_check": true,
+        "winding_consistent_by_edge_check": true,
+        "signed_solid_volume_mm3": 602.9507431975696,
+        "self_intersections_checked": false,
+        "validation_library": "NumPy edge-incidence/winding/finite/volume checks;trimesh unavailable"
+      },
+      "instances": [
+        {
+          "source_object_id": "22",
+          "source_name": "Spacer 16",
+          "plate": 1,
+          "identify_id": "546",
+          "build_transform_3mf": "1 0 0 0 1 0 0 0 1 156.24427 152.24129 3",
+          "build_transform_column_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              156.24427
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              152.24129
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              3.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "normalization_translation_mm": [
+            -156.24427,
+            -152.24129,
+            -0.0
+          ],
+          "original_plated_bounds_mm": [
+            [
+              149.79426924,
+              145.79225101999998,
+              0.0
+            ],
+            [
+              162.69427076,
+              158.69032898,
+              6.0
+            ]
+          ],
+          "source_references": [
+            {
+              "model": "3D/Objects/object_7.model",
+              "object_id": "21",
+              "transform": [
+                [
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ],
+              "children": [
+                {
+                  "model": "3D/Objects/object_7.model",
+                  "object_id": "21",
+                  "transform": [
+                    [
+                      1.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      1.0,
+                      0.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      0.0,
+                      1.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "source_object_id": "23",
+          "source_name": "Spacer 16",
+          "plate": 1,
+          "identify_id": "570",
+          "build_transform_3mf": "1 0 0 0 1 0 0 0 1 123.44511 123.82358 3",
+          "build_transform_column_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              123.44511
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              123.82358
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              3.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "normalization_translation_mm": [
+            -123.44511,
+            -123.82358,
+            -0.0
+          ],
+          "original_plated_bounds_mm": [
+            [
+              116.99510924,
+              117.37454102000001,
+              0.0
+            ],
+            [
+              129.89511076,
+              130.27261898,
+              6.0
+            ]
+          ],
+          "source_references": [
+            {
+              "model": "3D/Objects/object_7.model",
+              "object_id": "21",
+              "transform": [
+                [
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ],
+              "children": [
+                {
+                  "model": "3D/Objects/object_7.model",
+                  "object_id": "21",
+                  "transform": [
+                    [
+                      1.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      1.0,
+                      0.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      0.0,
+                      1.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "source_object_id": "24",
+          "source_name": "Spacer 16",
+          "plate": 1,
+          "identify_id": "592",
+          "build_transform_3mf": "1 0 0 0 1 0 0 0 1 169.54111 158.96039 3",
+          "build_transform_column_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              169.54111
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              158.96039
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              3.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "normalization_translation_mm": [
+            -169.54111,
+            -158.96039,
+            -0.0
+          ],
+          "original_plated_bounds_mm": [
+            [
+              163.09110924,
+              152.51135101999998,
+              0.0
+            ],
+            [
+              175.99111076,
+              165.40942898,
+              6.0
+            ]
+          ],
+          "source_references": [
+            {
+              "model": "3D/Objects/object_7.model",
+              "object_id": "21",
+              "transform": [
+                [
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ],
+              "children": [
+                {
+                  "model": "3D/Objects/object_7.model",
+                  "object_id": "21",
+                  "transform": [
+                    [
+                      1.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      1.0,
+                      0.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      0.0,
+                      1.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "source_object_id": "25",
+          "source_name": "Spacer 16",
+          "plate": 1,
+          "identify_id": "614",
+          "build_transform_3mf": "1 0 0 0 1 0 0 0 1 110.8969 131.85444 3",
+          "build_transform_column_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              110.8969
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              131.85444
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              3.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "normalization_translation_mm": [
+            -110.8969,
+            -131.85444,
+            -0.0
+          ],
+          "original_plated_bounds_mm": [
+            [
+              104.44689924000001,
+              125.40540102000001,
+              0.0
+            ],
+            [
+              117.34690076,
+              138.30347898000002,
+              6.0
+            ]
+          ],
+          "source_references": [
+            {
+              "model": "3D/Objects/object_7.model",
+              "object_id": "21",
+              "transform": [
+                [
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ],
+              "children": [
+                {
+                  "model": "3D/Objects/object_7.model",
+                  "object_id": "21",
+                  "transform": [
+                    [
+                      1.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      1.0,
+                      0.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      0.0,
+                      1.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "source_object_id": "26",
+          "source_name": "Spacer 16",
+          "plate": 1,
+          "identify_id": "524",
+          "build_transform_3mf": "1 0 0 0 1 0 0 0 1 104.84075 145.46615 3",
+          "build_transform_column_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              104.84075
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              145.46615
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              3.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "normalization_translation_mm": [
+            -104.84075,
+            -145.46615,
+            -0.0
+          ],
+          "original_plated_bounds_mm": [
+            [
+              98.39074924,
+              139.01711102,
+              0.0
+            ],
+            [
+              111.29075076,
+              151.91518898,
+              6.0
+            ]
+          ],
+          "source_references": [
+            {
+              "model": "3D/Objects/object_7.model",
+              "object_id": "21",
+              "transform": [
+                [
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ],
+              "children": [
+                {
+                  "model": "3D/Objects/object_7.model",
+                  "object_id": "21",
+                  "transform": [
+                    [
+                      1.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      1.0,
+                      0.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      0.0,
+                      1.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "source_object_id": "27",
+          "source_name": "Spacer 16",
+          "plate": 1,
+          "identify_id": "658",
+          "build_transform_3mf": "1 0 0 0 1 0 0 0 1 117.75336 171.29525 3",
+          "build_transform_column_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              117.75336
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              171.29525
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              3.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "normalization_translation_mm": [
+            -117.75336,
+            -171.29525,
+            -0.0
+          ],
+          "original_plated_bounds_mm": [
+            [
+              111.30335924,
+              164.84621102,
+              0.0
+            ],
+            [
+              124.20336076,
+              177.74428898000002,
+              6.0
+            ]
+          ],
+          "source_references": [
+            {
+              "model": "3D/Objects/object_7.model",
+              "object_id": "21",
+              "transform": [
+                [
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ],
+              "children": [
+                {
+                  "model": "3D/Objects/object_7.model",
+                  "object_id": "21",
+                  "transform": [
+                    [
+                      1.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      1.0,
+                      0.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      0.0,
+                      1.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "source_object_id": "28",
+          "source_name": "Spacer 16",
+          "plate": 1,
+          "identify_id": "680",
+          "build_transform_3mf": "1 0 0 0 1 0 0 0 1 107.27774 160.16407 3",
+          "build_transform_column_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              107.27774
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              160.16407
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              3.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "normalization_translation_mm": [
+            -107.27774,
+            -160.16407,
+            -0.0
+          ],
+          "original_plated_bounds_mm": [
+            [
+              100.82773924,
+              153.71503102,
+              0.0
+            ],
+            [
+              113.72774075999999,
+              166.61310898000002,
+              6.0
+            ]
+          ],
+          "source_references": [
+            {
+              "model": "3D/Objects/object_7.model",
+              "object_id": "21",
+              "transform": [
+                [
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ],
+              "children": [
+                {
+                  "model": "3D/Objects/object_7.model",
+                  "object_id": "21",
+                  "transform": [
+                    [
+                      1.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      1.0,
+                      0.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      0.0,
+                      1.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "source_object_id": "29",
+          "source_name": "Spacer 16",
+          "plate": 1,
+          "identify_id": "702",
+          "build_transform_3mf": "1 0 0 0 1 0 0 0 1 96.07908 133.4164 3",
+          "build_transform_column_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              96.07908
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              133.4164
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              3.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "normalization_translation_mm": [
+            -96.07908,
+            -133.4164,
+            -0.0
+          ],
+          "original_plated_bounds_mm": [
+            [
+              89.62907924000001,
+              126.96736102000001,
+              0.0
+            ],
+            [
+              102.52908076,
+              139.86543898000002,
+              6.0
+            ]
+          ],
+          "source_references": [
+            {
+              "model": "3D/Objects/object_7.model",
+              "object_id": "21",
+              "transform": [
+                [
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ],
+              "children": [
+                {
+                  "model": "3D/Objects/object_7.model",
+                  "object_id": "21",
+                  "transform": [
+                    [
+                      1.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      1.0,
+                      0.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      0.0,
+                      1.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "source_object_id": "30",
+          "source_name": "Spacer 16",
+          "plate": 1,
+          "identify_id": "724",
+          "build_transform_3mf": "1 0 0 0 1 0 0 0 1 103.1343 174.47458 3",
+          "build_transform_column_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              103.1343
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              174.47458
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              3.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "normalization_translation_mm": [
+            -103.1343,
+            -174.47458,
+            -0.0
+          ],
+          "original_plated_bounds_mm": [
+            [
+              96.68429924,
+              168.02554102,
+              0.0
+            ],
+            [
+              109.58430075999999,
+              180.92361898000001,
+              6.0
+            ]
+          ],
+          "source_references": [
+            {
+              "model": "3D/Objects/object_7.model",
+              "object_id": "21",
+              "transform": [
+                [
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ],
+              "children": [
+                {
+                  "model": "3D/Objects/object_7.model",
+                  "object_id": "21",
+                  "transform": [
+                    [
+                      1.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      1.0,
+                      0.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      0.0,
+                      1.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "source_object_id": "31",
+          "source_name": "Spacer 16",
+          "plate": 1,
+          "identify_id": "746",
+          "build_transform_3mf": "1 0 0 0 1 0 0 0 1 93.33036 154.92719 3",
+          "build_transform_column_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              93.33036
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              154.92719
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              3.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "normalization_translation_mm": [
+            -93.33036,
+            -154.92719,
+            -0.0
+          ],
+          "original_plated_bounds_mm": [
+            [
+              86.88035924,
+              148.47815101999998,
+              0.0
+            ],
+            [
+              99.78036076,
+              161.37622898,
+              6.0
+            ]
+          ],
+          "source_references": [
+            {
+              "model": "3D/Objects/object_7.model",
+              "object_id": "21",
+              "transform": [
+                [
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ],
+              "children": [
+                {
+                  "model": "3D/Objects/object_7.model",
+                  "object_id": "21",
+                  "transform": [
+                    [
+                      1.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      1.0,
+                      0.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      0.0,
+                      1.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "source_object_id": "32",
+          "source_name": "Spacer 16",
+          "plate": 2,
+          "identify_id": "768",
+          "build_transform_3mf": "1 0 0 0 1 0 0 0 1 440.89731 124.40164 3",
+          "build_transform_column_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              440.89731
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              124.40164
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              3.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "normalization_translation_mm": [
+            -440.89731,
+            -124.40164,
+            -0.0
+          ],
+          "original_plated_bounds_mm": [
+            [
+              434.44730924,
+              117.95260102,
+              0.0
+            ],
+            [
+              447.34731076,
+              130.85067898,
+              6.0
+            ]
+          ],
+          "source_references": [
+            {
+              "model": "3D/Objects/object_7.model",
+              "object_id": "21",
+              "transform": [
+                [
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ],
+              "children": [
+                {
+                  "model": "3D/Objects/object_7.model",
+                  "object_id": "21",
+                  "transform": [
+                    [
+                      1.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      1.0,
+                      0.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      0.0,
+                      1.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "source_object_id": "33",
+          "source_name": "Spacer 16",
+          "plate": 1,
+          "identify_id": "790",
+          "build_transform_3mf": "1 0 0 0 1 0 0 0 1 84.56868 142.87741 3",
+          "build_transform_column_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              84.56868
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              142.87741
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              3.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "normalization_translation_mm": [
+            -84.56868,
+            -142.87741,
+            -0.0
+          ],
+          "original_plated_bounds_mm": [
+            [
+              78.11867924,
+              136.42837102,
+              0.0
+            ],
+            [
+              91.01868076,
+              149.32644898,
+              6.0
+            ]
+          ],
+          "source_references": [
+            {
+              "model": "3D/Objects/object_7.model",
+              "object_id": "21",
+              "transform": [
+                [
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ],
+              "children": [
+                {
+                  "model": "3D/Objects/object_7.model",
+                  "object_id": "21",
+                  "transform": [
+                    [
+                      1.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      1.0,
+                      0.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      0.0,
+                      1.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "source_object_id": "34",
+          "source_name": "Spacer 16",
+          "plate": 2,
+          "identify_id": "812",
+          "build_transform_3mf": "1 0 0 0 1 0 0 0 1 450.76427 135.56386 3",
+          "build_transform_column_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              450.76427
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              135.56386
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              3.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "normalization_translation_mm": [
+            -450.76427,
+            -135.56386,
+            -0.0
+          ],
+          "original_plated_bounds_mm": [
+            [
+              444.31426924,
+              129.11482102,
+              0.0
+            ],
+            [
+              457.21427076000003,
+              142.01289898000002,
+              6.0
+            ]
+          ],
+          "source_references": [
+            {
+              "model": "3D/Objects/object_7.model",
+              "object_id": "21",
+              "transform": [
+                [
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ],
+              "children": [
+                {
+                  "model": "3D/Objects/object_7.model",
+                  "object_id": "21",
+                  "transform": [
+                    [
+                      1.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      1.0,
+                      0.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      0.0,
+                      1.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "source_object_id": "35",
+          "source_name": "Spacer 16",
+          "plate": 1,
+          "identify_id": "834",
+          "build_transform_3mf": "1 0 0 0 1 0 0 0 1 89.18692 169.2377 3",
+          "build_transform_column_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              89.18692
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              169.2377
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              3.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "normalization_translation_mm": [
+            -89.18692,
+            -169.2377,
+            -0.0
+          ],
+          "original_plated_bounds_mm": [
+            [
+              82.73691924,
+              162.78866101999998,
+              0.0
+            ],
+            [
+              95.63692076,
+              175.68673898,
+              6.0
+            ]
+          ],
+          "source_references": [
+            {
+              "model": "3D/Objects/object_7.model",
+              "object_id": "21",
+              "transform": [
+                [
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ],
+              "children": [
+                {
+                  "model": "3D/Objects/object_7.model",
+                  "object_id": "21",
+                  "transform": [
+                    [
+                      1.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      1.0,
+                      0.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      0.0,
+                      1.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "source_object_id": "36",
+          "source_name": "Spacer 16",
+          "plate": 2,
+          "identify_id": "404",
+          "build_transform_3mf": "1 0 0 0 1 0 0 0 1 429.03858 115.38212 3",
+          "build_transform_column_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              429.03858
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              115.38212
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              3.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "normalization_translation_mm": [
+            -429.03858,
+            -115.38212,
+            -0.0
+          ],
+          "original_plated_bounds_mm": [
+            [
+              422.58857924,
+              108.93308102,
+              0.0
+            ],
+            [
+              435.48858076000005,
+              121.83115898,
+              6.0
+            ]
+          ],
+          "source_references": [
+            {
+              "model": "3D/Objects/object_7.model",
+              "object_id": "21",
+              "transform": [
+                [
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ],
+              "children": [
+                {
+                  "model": "3D/Objects/object_7.model",
+                  "object_id": "21",
+                  "transform": [
+                    [
+                      1.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      1.0,
+                      0.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      0.0,
+                      1.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "source_object_id": "37",
+          "source_name": "Spacer 16",
+          "plate": 2,
+          "identify_id": "636",
+          "build_transform_3mf": "1 0 0 0 1 0 0 0 1 455.49817 121.43667 3",
+          "build_transform_column_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              455.49817
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              121.43667
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              3.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "normalization_translation_mm": [
+            -455.49817,
+            -121.43667,
+            -0.0
+          ],
+          "original_plated_bounds_mm": [
+            [
+              449.04816924,
+              114.98763102000001,
+              0.0
+            ],
+            [
+              461.94817076000004,
+              127.88570898,
+              6.0
+            ]
+          ],
+          "source_references": [
+            {
+              "model": "3D/Objects/object_7.model",
+              "object_id": "21",
+              "transform": [
+                [
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ],
+              "children": [
+                {
+                  "model": "3D/Objects/object_7.model",
+                  "object_id": "21",
+                  "transform": [
+                    [
+                      1.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      1.0,
+                      0.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      0.0,
+                      1.0,
+                      0.0
+                    ],
+                    [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "download_project": {
+    "filename": "cycloidal-actuator-v1-project.3mf",
+    "sha256": "5c595d4d04a9bdf29f06bc0b929c027eaccc2764e7e525603180915affd443a6",
+    "bytes": 880157
+  },
+  "cost": {
+    "saved_slicer_mass_g": 296.56,
+    "default_user_reported_refill_rate_per_kg": 14,
+    "default_material_estimate": 4.15184,
+    "default_rounded_material_estimate": 4.15,
+    "official_current_refill_rate_per_kg": 14.99,
+    "official_current_refill_estimate": 4.4454344,
+    "official_current_refill_rounded": 4.45,
+    "official_current_refill_source": "https://us.store.bambulab.com/products/pla-basic-filament",
+    "official_price_checked_date": "2026-10-30",
+    "official_verification": "Root verified official USstore liveUI:Refill1kg qty1.",
+    "historical_saved_profile_rate_per_kg": 19.99,
+    "historical_saved_profile_estimate": 5.9282344,
+    "historical_saved_profile_rounded": 5.93,
+    "currency": "USD",
+    "scope": "Printedmaterialestimateonly;notpaidbuildcost. Saved19.99profileisprovenance,notcurrentprice."
+  },
+  "privacy": {
+    "designer_account_ID_removed": true,
+    "removed_metadata_field": "DesignerUserId",
+    "printer_credentials_found": false,
+    "generic_printhost_setting_fields_retained": [
+      "printhost_authorization_type",
+      "printhost_ssl_ignore_revoke"
+    ],
+    "geometry_component_transforms_and_other_ZIP_member_payloads_unchanged": true,
+    "source_original_untouched": true,
+    "absolute_personal_paths_in_download_manifest": false
+  }
+}
