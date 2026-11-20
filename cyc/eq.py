@@ -1,6 +1,6 @@
 '''N - Number of rollers
 Rr - Radius of the roller
-R - Radius of the rollers PCD (Pitch Circle Diamater)
+R - Radius of the rollers PCD (bascially the distance from the center of the input shaft to the center of the roller)
 E - Eccentricity - offset from input shaft to a cycloidal disk
 '''
 
@@ -15,7 +15,7 @@ Rr = float(input("Enter the radius of the roller (Rr): "))
 R = float(input("Enter the pitch circle radius of the rollers (R): "))
 E = (R / N) * 0.45
 
-print(f"\nCalculated Eccentricity (E): {E}")
+print(f"\nE: {E}")
 
 x_eq = f"({R}*cos(t))-({Rr}*cos(t+arctan(sin((1-{N})*t)/(({R}/({E}*{N}))-cos((1-{N})*t)))))-({E}*cos({N}*t))"
 y_eq = f"(-{R}*sin(t))+({Rr}*sin(t+arctan(sin((1-{N})*t)/(({R}/({E}*{N}))-cos((1-{N})*t)))))+({E}*sin({N}*t))"
