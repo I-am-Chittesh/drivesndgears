@@ -13,7 +13,8 @@ y = (-R*sin(t))+(Rr*sin(t+arctan(sin((1-N)*t)/((R/(E*N))-cos((1-N)*t)))))+(E*sin
 N = int(input("Enter the number of rollers (N): "))
 Rr = float(input("Enter the radius of the roller (Rr): "))
 R = float(input("Enter the pitch circle radius of the rollers (R): "))
-E = (R / N) * 0.6
+E = (R / N) * 0.45
+
 print(f"\nCalculated Eccentricity (E): {E}")
 
 x_eq = f"({R}*cos(t))-({Rr}*cos(t+arctan(sin((1-{N})*t)/(({R}/({E}*{N}))-cos((1-{N})*t)))))-({E}*cos({N}*t))"
